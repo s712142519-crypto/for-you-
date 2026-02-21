@@ -11,7 +11,7 @@ import { PhotoData, MessageData } from './types';
 */
 
 // Your Local Video Path:
-export const VIDEO_PATH = 'videos/birthday_video.mp4';
+export const VIDEO_PATH = '/videos/birthday_video.mp4';
 
 // Your Secret Mirror Photos (Used in the messages section):
 export const MIRROR_PHOTOS: PhotoData[] = [
