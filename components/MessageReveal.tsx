@@ -79,7 +79,7 @@ export const MessageReveal: React.FC<MessageRevealProps> = ({ onPhotoClick, stag
                   initial={{ y: 20, opacity: 0 }} 
                   animate={{ y: 0, opacity: 1 }} 
                   onClick={() => setStage('bond')} 
-                  className="px-12 py-4 rounded-full border border-pink-500 text-pink-500 font-heading text-[11px] font-black uppercase tracking-[0.2em] bg-pink-500/10 shadow-[0_0_30px_rgba(255,0,127,0.2)] hover:bg-pink-500 hover:text-white transition-all active:scale-95"
+                  className="px-6 py-2 text -[12px] rounded-full border border-pink-500 text-pink-500 font-heading font-black uppercase fixed bottom-6 right-4 z-50 md:static md:px-12 md:py-4"
                 >
                   SEE OUR BOND <ArrowRight size={16} className="inline ml-2" />
                 </motion.button>
